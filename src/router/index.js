@@ -23,6 +23,16 @@ const routes = [
     name: 'product',
     component:() => import('../views/product.vue')
   },
+  {
+    path: '/contact',
+    name: 'contact',
+    component:() => import('../views/contact.vue')
+  },
+  {
+    path: '/newarival',
+    name: 'newarival',
+    component:() => import('../views/newarival.vue')
+  },
 ]
 
 const router = new VueRouter({
